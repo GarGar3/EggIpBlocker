@@ -2,7 +2,7 @@
 local firewall security
 To Do: Create new admin users for your server, save the python script as an exe file
 
-Note: Modify the prompt according to your needs can also be use in the vistitor logs of your web application for users that uses vpp 
+Note: Modify the prompt according to your needs can also be use in the vistitor logs of your web application for users that uses vpn 
 "Create a script that will login to my microsoft sql server and read the xp_readerrorlog and block all the ip address that will use the username sa and create an array of all username that will be exempted, also create a text log on the blocked ip address, the script should run in the background proccess use threading and prevent the reblocking of ip address and read xp_readerrorlog rows atleast once, and re.read the xp_readerrorlog  new logs after a minute"
 
 To Unblock IP address:
