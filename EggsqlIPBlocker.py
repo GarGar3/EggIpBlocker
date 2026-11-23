@@ -184,7 +184,7 @@ def monitor_logs_worker():
             newest_date_in_batch = last_processed_log_date
 
             for row in rows:
-                log_date, process_info, text = row, row, row
+                log_date, process_info, text = row[0], row[1], row[2]
 
                 if (
                     last_processed_log_date is not None
